@@ -28,7 +28,7 @@ pub fn run() {
     // Replace
     println!("Replace: {}", hello.replace("World","There"));
 
-    /// Loop through string by whitespace
+    // Loop through string by whitespace
     for word in hello.split_whitespace(){
         println!("{}", word);
     }
@@ -36,9 +36,14 @@ pub fn run() {
 
     // create string with capacity
     let mut s = String::with_capacity(10);
-    s.push("a");
+    s.push('a');
     s.push('b');
+    // how to write assertions(assertion testing) ex: (left == right) if something matches the other
 
+    assert_eq!(2,s.len()); // if true nothing changes but it is not true they throw an error
+    // assert_eq!(3,s.len()); // this will throw an error
+
+    assert_eq!(10,s.capacity());
     println!("{}", s); 
 
 }
