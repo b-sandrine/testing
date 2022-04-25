@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<SwithMailSettings>
+  <ServerSettings>
+    <FromName>sandrine dushimimana</FromName>
+    <FromAddress>sanrdushimimana@gmail.com</FromAddress>
+    <Username />
+    <Password />
+    <ObscurePassword>False</ObscurePassword>
+    <MailServer>smtp.gmail.com</MailServer>
+    <MailServerPort>587</MailServerPort>
+    <SSL>True</SSL>
+    <Encoding />
+    <RequestReceipt>False</RequestReceipt>
+    <MessageID>False</MessageID>
+  </ServerSettings>
+  <EmailAddresses>
+    <To />
+    <CC />
+    <BCC />
+    <ReplyTo>sdushimeb@gmail.com</ReplyTo>
+  </EmailAddresses>
+  <Attachments>
+    <AttachmentPath />
+  </Attachments>
+  <EmailContent>
+    <HTML>False</HTML>
+    <DontReplaceNewLine>False</DontReplaceNewLine>
+    <Subject>Trying to send email using smtp</Subject>
+    <Body>hello I am me and I waekened arleady</Body>
+    <BodyTxtFile />
+  </EmailContent>
+</SwithMailSettings>

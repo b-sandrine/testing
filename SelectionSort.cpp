@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-	int array[] = {9,5,0,3,1,7};
+	int array[] = {9,5,0,3,0,7};
 	
 	int n = sizeof(array)/sizeof(array[0]);
 	
